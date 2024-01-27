@@ -1,7 +1,7 @@
 import requests
 from openai import OpenAI
 import os
-from openai.types.chat.completion_create_params import ResponseFormat
+
 
 # these two are my own keys , alter to your keys if you prefer
 
@@ -95,4 +95,4 @@ profile2 = {
     "Company Postcode": "Threadneedle Street"
 }
 
-print(get_top_articles_with_gpt(site_url2, profile2))
+print(get_top_articles_with_gpt(site_url2, profile1))

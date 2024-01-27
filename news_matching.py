@@ -85,7 +85,7 @@ profile1 = {
     "Company Postcode": "WC1H 0EA"
 }
 
-site_url2 = 'ft.com'
+site_url2 = 'techcrunch.com'
 
 profile2 = {
     "Name": "John Doe",
@@ -95,4 +95,4 @@ profile2 = {
     "Company Postcode": "Threadneedle Street"
 }
 
-print(get_top_articles_with_gpt(site_url2, profile1))
+get_top_articles_with_gpt(site_url2, profile2)

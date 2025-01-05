@@ -5,12 +5,12 @@ import os
 
 # these two are my own keys , alter to your keys if you prefer
 
-bing_api_key = '2f205aa286254e00a0dee2b4de582869'
+bing_api_key = ''
 
-open_ai_api_key = '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'
+open_ai_api_key = ''
 
 #This endpoint returns news articles based on the user's search query. If the search query is empty, the call returns the top news articles.
-bing_endpoint = 'https://api.bing.microsoft.com/v7.0/news/search'
+bing_endpoint = 'https://api.bing.microsoft.com/v7.0/news/'
 
 # Function to call news articles from api 
 
